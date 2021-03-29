@@ -1,0 +1,1236 @@
+body {
+  overflow: hidden;    
+  margin: 0px;
+  padding: 0px;    
+}
+.text-black {
+  color: black;
+}
+.title {
+  font-family: 'Times New Roman', Times;
+}
+.animated {
+  animation-duration: .3s;
+}   
+   
+/* The Background image part CSS */
+.Main-frame {
+ /* position: relative;
+  background-image: url(/image/3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  background: black;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 695px;
+  overflow: hidden;
+}
+
+/* The Navbar Part CSS */
+.Main-frame .navbar-part .navbar .navbar-nav .nav-item button {
+  background: none;
+  outline: none;
+  border: none;
+}
+.Main-frame .navbar-part {
+  position: relative;
+  float: right; 
+  width: 89.5%;
+  background-color: darkslategray;
+}
+.Main-frame .navbar-part .navbar .navbar-nav .nav-item .icon {
+  border-right: 1px solid black;    
+}
+.Main-frame .navbar-part .navbar .navbar-nav .nav-item button:focus {
+  outline: none;
+}
+.Main-frame .navbar-part .navbar .navbar-nav .nav-item .icon:hover {
+  background-color: black;    
+}
+.Main-frame .navbar-part .navbar .navbar-nav .nav-item .download {
+  border-left: 1px solid black;
+}
+.Main-frame .navbar-part .navbar .navbar-nav .nav-item .dropdown-menu {
+  background-color: darkslategray;
+}
+.Main-frame .navbar-part .navbar .navbar-nav .nav-item .dropdown-menu .logout {
+  font-size: 20px;
+}
+.Main-frame .navbar-part .navbar .navbar-nav .nav-item .dropdown-menu a:hover {
+  background: none; 
+}
+.Main-frame .navbar-part .navbar .navbar-nav .nav-item .dropdown-menu a:hover .logout {
+  transition: all .5s; 
+  color: black !important;
+}
+.Main-frame .message {
+  position: absolute;
+  top: 17%;
+  left: 25%;
+  animation-delay: .5s;
+}
+
+/* The Menu Part CSS */
+.Menu-part {
+  width: 10%;
+  height: 100%;
+  background-color: darkslategray;   
+}
+.Menu-part .img-frame {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin: 35px auto;        
+}
+.Menu-part .img-frame .image {
+  width: 100%; 
+  border-radius: 50px;   
+}
+.Menu-part .navbar .nav-item {
+  border-bottom: 1px solid black;
+}
+.Menu-part .navbar .nav-item .nav-link button {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;    
+  padding-top: 14px;
+  padding-bottom: 11px; 
+  outline: none;   
+  color: white;
+  background: none;
+  border: none;    
+  font-size: 15px; 
+}
+.Menu-part .navbar .nav-item .nav-link button:focus {
+  outline: none;
+  background-color: black;
+  color: white;    
+}
+.Menu-part .navbar .nav-item .nav-link button:hover {
+  background-color: black;
+  color: white;    
+}
+.Menu-part .navbar .nav-item:active .nav-link button {
+  background-color: black;
+  color: white;    
+}
+
+/* The Welcome Page view css Part */
+.Welcome {
+  position: absolute;
+  top: 15.5%;
+  left: 12.5%;
+  width: 83%;
+  height: 80%;
+  border: 2px solid white;
+  border-style: solid;
+  background-color: rgba(47, 79, 79, .5);
+}
+.Welcome .img-frame {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin: 35px auto; 
+  animation-delay: .3s;       
+}
+.Welcome .img-frame .image {
+  width: 100%;
+  border-radius: 50px;   
+}
+.Welcome .welcome {
+  animation-delay: 1s;
+}
+.Welcome .to {
+  animation-delay: 1.5s;
+}
+.Welcome .alpha {
+  animation-delay: 2s;
+}
+.Welcome .shop {
+  animation-delay: 2.5s;
+}
+.Welcome .sub-title {
+  font-family: 'Times New Roman';
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  animation-delay: 3s;
+}
+.Welcome .list ul li {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+.Welcome .list .first {
+  animation-delay: 3.5s;
+}
+.Welcome .list .second {
+  animation-delay: 4s;
+}
+.Welcome .list .third {
+  animation-delay: 4.5s;
+}
+.Welcome .list .fourth {
+  animation-delay: 5s;
+}
+.Welcome .list .fifth {
+  animation-delay: 5.5s;
+}
+
+
+
+/* The Left Side Of the Page */
+.Left-Side {
+  position: absolute;
+  top: 12%;
+  left: 10.5%;
+  width: 12%;
+  height: 89%;
+ }
+
+
+ /* The Right Side of the Page */
+.Right-Side {
+  position: absolute;
+  top: 15.5%;
+  left: 25%;
+  width: 72%;
+  height: 80%; 
+} 
+
+/* The Login form View CSS Part */
+.login-form {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 380px;
+  background: darkslategray;
+}
+.login-form .card-body .login-btn {
+  width: 70px;
+  height: 40px;    
+  color: darkgreen;
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.login-form .card-body .login-btn:focus {
+ outline: none;      
+}
+
+/* The Register Form View CSS part */
+.Register-Form {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 380px;
+  background: darkslategray;
+}
+.Register-Form .card-body .Register-btn {
+  width: 90px;
+  height: 40px;
+  color: darkgreen;    
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.Register-Form .card-body .Register-btn:focus {
+ outline: none;      
+}  
+
+/* The Send Message view Part CSS */
+.Email-Reset {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 380px;
+  background: darkslategray;
+}
+.Email-Reset .card-body .Send-M-btn {
+  width: 220px;
+  height: 40px;
+  color: darkgreen;    
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.Email-Reset .card-body .Send-M-btn:focus {
+ outline: none;      
+}
+
+/* The reset view Part CSS */
+.Reset {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 380px;
+  background: darkslategray;
+}
+.Reset .card-body .reset-btn {
+  width: 220px;
+  height: 40px;
+  color: darkgreen;    
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.Reset .card-body .reset-btn:focus {
+ outline: none;      
+}
+
+/* The confirm view Part CSS */
+.Confirm {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 380px;
+  background: darkslategray;
+}
+.Confirm .card-body .confirm-btn {
+  width: 220px;
+  height: 40px;
+  color: darkgreen;    
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.Confirm .card-body .confirm-btn:focus {
+ outline: none;      
+}
+
+/* The Verify view Part CSS */
+.verify {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 380px;
+  background: darkslategray;
+}
+
+/* The Left Part Css */
+.Left-Part {
+  height: 100%;
+  width: 100%;
+  background-color: darkslategray;
+}
+.Left-Part .add { 
+  position: absolute;
+  top: 5%;
+  left: 24%;  
+  width: 80px;        
+  height: 50px;
+  font-weight: bold;
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;   
+}
+.Left-Part .add:focus {
+  outline: none;      
+}
+.Left-Part .menu-title {
+  position: absolute;
+  top: 19%;
+  left: 5%;    
+}
+.Left-Part button.shape {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;    
+  padding-top: 12px;
+  padding-bottom: 13px;    
+  border: none;
+  color: white;
+  background: none;    
+  font-size: 15px;    
+}
+.Left-Part .top-space {
+  margin-top: 160px;    
+}
+.Left-Part button:active {
+  background-color: black;
+  color: white;    
+}
+.Left-Part button:focus {
+  background-color: black;
+  color: white; 
+  outline: none;  
+}
+.Left-Part button:hover {
+  background-color: black;
+  color: white;    
+}
+
+
+/* The Show part CSS */
+.Show-part {
+  width: 100%;
+  height: 100%;
+  border: 2px solid white; 
+  background-color: rgba(47, 79, 79, .5);
+}
+.Show-part .search {
+  position: absolute;
+  top: 20%;
+  left: 10%;    
+}
+.Show-part .search-input {
+  font-family: Arial, Helvetica, sans-serif;
+  position:  absolute;
+  top: 28%;
+  left: 2%;
+  height: 32px;
+  background: none;
+  text-indent: 10px;
+  border: 1px solid white;    
+}
+.Show-part .category {    
+  position: absolute;
+  top: 28%;
+  left: 19.4%;
+  font-weight: bold;
+  height: 32px;
+  text-indent: 5px;
+  width: 95px;      
+}
+.Show-part .search-btn {
+  position: absolute;
+  top: 38%;
+  left: 10%;
+  height: 35px;
+  width: 100px;
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+  font-weight: bold;    
+}
+.Show-part .search-btn:focus {
+  outline: none;    
+}
+.Show-part .Result-card {
+  position: absolute;
+  top: 49%;
+  left: 4%;
+  width: 230px;
+  height: 150px;
+  font-size: 16px;    
+}
+.Show-part .Result-card table {
+  border: 1px solid white;
+  line-height: 40px;
+  border-collapse: collapse;
+}
+.Show-part .table {
+  position: absolute;
+  top: 5%;
+  left: 32%;
+  width: 65%;
+  height: 89%;
+  border: 1px solid white;
+  font-size: 16px;     
+  overflow: auto;
+}
+.Show-part .table table {
+  border: 1px solid white;
+  line-height: 20px;
+  border-collapse: collapse;
+}
+
+
+/* Details Part Css */
+.details .row table {
+  border: 1px solid white;
+  line-height: 30px;
+  border-collapse: collapse;
+}
+.details .row .size {
+  font-size: 46px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: none !important;
+}
+
+
+/* The adding New item Part CSS */
+.New-part {
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  background-color: rgba(47, 79, 79, .5);    
+}
+.New-part .Addnew-title {
+  position: absolute;
+  top: 4%;
+  left: 9%;
+  color: white;    
+}
+.New-part .label1 {
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  color: white;        
+}
+.New-part .label2 {
+  position: absolute;
+  top: 32%;
+  left: 4%;
+  color: white;        
+}
+.New-part .label3 {
+  position: absolute;
+  top: 44%;
+  left: 4%;
+  color: white;        
+}
+.New-part .label4 {
+  position: absolute;
+  top: 54%;
+  left: 4%;
+  color: white;        
+}
+.New-part .label5 {
+  position: absolute;
+  top: 65%;
+  left: 4%;
+  color: white;        
+}
+.New-part .label6 {
+  position: absolute;
+  top: 20%;
+  left: 41%;
+  color: white;        
+}
+.New-part .label7 {
+  position: absolute;
+  top: 32%;
+  left: 41%;
+  color: white;        
+}
+.New-part .label8 {
+  position: absolute;
+  top: 44%;
+  left: 41%;
+  color: white;        
+}
+.New-part .input { 
+  height: 30px;    
+  background: none;
+  color: white;
+  text-indent: 10px;
+  border: none;    
+  border-bottom: 1px solid white;     
+}
+.New-part .ID {
+  position: absolute;
+  top: 19%;
+  left: 13%;     
+}
+.New-part .Name {
+  position: absolute;
+  top: 31%;
+  left: 15%;    
+}
+.New-part .Sale {
+  position: absolute;
+  top: 31%;
+  left: 50%;    
+}
+.New-part .select {
+  position: absolute;
+  top: 31%;
+  left: 68%;
+  height: 30px;
+  background-color: white;    
+}
+.New-part .Store {
+  width: 150px !important;    
+  position: absolute;
+  top: 53%;
+  left: 13%;    
+}
+.New-part .Amount {
+  position: absolute;
+  top: 43%;
+  left: 17%;    
+}
+.New-part .category {
+  position: absolute;
+  top: 19%;
+  left: 55%;
+  width: 100px;
+  height: 30px;    
+}
+.New-part .Size {
+  position: absolute;
+  top: 43%;
+  left: 52%;
+  width: 50px;
+  height: 30px;    
+}
+.New-part .Minimum {
+  position: absolute;
+  top: 64%;
+  left: 16%;    
+}
+.New-part .save-btn {
+  position: absolute;
+  top: 83%;
+  right: 25%;
+  width: 80px;
+  height: 35px;
+  font-weight: bold;
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.New-part .cancel-btn {
+  position: absolute;
+  top: 83%;
+  right: 15%;
+  width: 80px;
+  height: 35px;
+  font-weight: bold;
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.New-part .cancel-btn:focus {
+  outline: none;    
+}
+.New-part .save-btn:focus {
+  outline: none;    
+}
+
+/* The Customer Table Part CSS */
+.Customer-part {
+  width: 100%;
+  height: 100%;
+  border: 2px solid white; 
+  background-color: rgba(47, 79, 79, .5);   
+}
+.Customer-part .Table-title {
+  position: absolute;
+  top: 1%;
+  left: 38%;
+  color: white;    
+}
+.Customer-part .customer-search {
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  height: 33.5px;
+  background: none;
+  color: white;
+  border: 1px solid white;   
+  text-indent: 10px;    
+}
+.Customer-part .customer-searchbtn {
+  position: absolute;
+  top: 12%;
+  left: 52.4%;
+  height: 34px;
+  font-weight: bold;    
+}
+.Customer-part .info-div {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  width: 220px;
+  height: 88px;
+  color: white;    
+}
+.Customer-part .customer-table {
+  position: absolute;
+  top: 21%;
+  left: 3%;
+  width: 94%;
+  height: 75%;
+  border: 1px solid white;    
+  overflow: auto;
+}
+.Customer-part table{
+  border: 1px solid white;
+  line-height: 40px;
+  border-collapse: collapse;
+}
+
+
+
+/* Buy Method part CSS */
+.Buy-Method-part {
+  width: 100%;
+  height: 100%; 
+  border: 2px solid white;    
+  background-color: rgba(47, 79, 79, .5);
+}
+.Buy-Method-part .Addnew-title {
+  position: absolute;
+  top: 4%;
+  left: 9%;
+  color: white;    
+}
+.Buy-Method-part .label1 {
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  color: white;        
+}
+.Buy-Method-part .label2 {
+  position: absolute;
+  top: 32%;
+  left: 4%;
+  color: white;        
+}
+.Buy-Method-part .label3 {
+  position: absolute;
+  top: 44%;
+  left: 4%;
+  color: white;        
+}
+.Buy-Method-part .label4 {
+  position: absolute;
+  top: 54%;
+  left: 4%;
+  color: white;        
+}
+.Buy-Method-part .label5 {
+  position: absolute;
+  top: 65%;
+  left: 4%;
+  color: white;        
+}
+.Buy-Method-part .label6 {
+  position: absolute;
+  top: 20%;
+  left: 41%;
+  color: white;        
+}
+.Buy-Method-part .label7 {
+  position: absolute;
+  top: 32%;
+  left: 41%;
+  color: white;        
+}
+.Buy-Method-part .label8 {
+  position: absolute;
+  top: 44%;
+  left: 41%;
+  color: white;        
+}
+.Buy-Method-part .input { 
+  height: 30px;    
+  background: none;
+  color: white;
+  text-indent: 10px;
+  border: none;    
+  border-bottom: 1px solid white;     
+}
+.Buy-Method-part .ID {
+  position: absolute;
+  top: 19%;
+  left: 15%;     
+}
+.Buy-Method-part .Name {
+  position: absolute;
+  top: 31%;
+  left: 16%;    
+}
+.Buy-Method-part .Sale {
+  position: absolute;
+  top: 31%;
+  left: 50%;    
+}
+.Buy-Method-part .select {
+  position: absolute;
+  top: 31%;
+  left: 68%;
+  height: 30px;
+  background-color: white;    
+}
+.Buy-Method-part .Store {
+  position: absolute;
+  top: 53%;
+  left: 12%;    
+}
+.Buy-Method-part .Amount {
+  position: absolute;
+  top: 43%;
+  left: 11%;    
+}
+.Buy-Method-part .category {
+  position: absolute;
+  top: 19%;
+  left: 55%;
+  width: 100px;
+  height: 30px;    
+}
+.Buy-Method-part .Size {
+  position: absolute;
+  top: 43%;
+  left: 52%;
+  width: 50px;
+  height: 30px;    
+}
+.Buy-Method-part .save-btn {
+  position: absolute;
+  top: 83%;
+  right: 25%;
+  width: 80px;
+  height: 35px;
+  font-weight: bold;
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.Buy-Method-part .cancel-btn {
+  position: absolute;
+  top: 83%;
+  right: 15%;
+  width: 80px;
+  height: 35px;
+  font-weight: bold;
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.Buy-Method-part .cancel-btn:focus {
+  outline: none;    
+}
+.Buy-Method-part .save-btn:focus {
+  outline: none;    
+}
+
+
+/* The Sales List part CSS */
+.Sales-List {
+  width: 100%;
+  height: 100%; 
+  border: 2px solid white;    
+  background-color: rgba(47, 79, 79, .5);    
+}
+.Sales-List .search {
+  position: absolute;
+  top: 17%;
+  left: 10%;
+  color: white;    
+}
+.Sales-List .search-input {
+  position:  absolute;
+  top: 28%;
+  left: 4%;
+  height: 32px;
+  background: none;
+  color: white;
+  border: 1px solid white;   
+  text-indent: 10px;    
+}
+.Sales-List .search-btn {
+  position: absolute;
+  top: 28%;
+  left: 21.4%;
+  font-weight: bold;
+  height: 32px;
+}
+.Sales-List .Result-card {
+  position: absolute;
+  top: 40%;
+  left: 4%;
+  width: 230px;
+  height: 150px;    
+}
+.Sales-List .table {
+  position: absolute;
+  top: 5%;
+  left: 32%;
+  width: 65%;
+  height: 89%;
+  border: 1px solid white;     
+  overflow: auto;
+}
+.Sales-List .Result-card table {
+  border: 1px solid white;
+  line-height: 40px;
+  border-collapse: collapse;
+}
+.Sales-List .table table {
+  border: 1px solid white;
+  line-height: 20px;
+  border-collapse: collapse;
+}
+
+
+/* The adding New item Part CSS */
+.Newbranch-part {    
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  background-color: rgba(47, 79, 79, .5);    
+}
+.Newbranch-part .Addnew-title {
+  position: absolute;
+  top: 4%;
+  left: 9%;
+  color: white;    
+}
+.Newbranch-part .label1 {
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  color: white;        
+}
+.Newbranch-part .label2 {
+  position: absolute;
+  top: 32%;
+  left: 4%;
+  color: white;        
+}
+.Newbranch-part .label3 {
+  position: absolute;
+  top: 44%;
+  left: 4%;
+  color: white;        
+}
+.Newbranch-part .label4 {
+  position: absolute;
+  top: 54%;
+  left: 4%;
+  color: white;        
+}
+.Newbranch-part .label5 {
+  position: absolute;
+  top: 65%;
+  left: 4%;
+  color: white;        
+}
+.Newbranch-part .input { 
+  height: 30px;    
+  background: none;
+  color: white;
+  text-indent: 10px;
+  border: none;    
+  border-bottom: 1px solid white;     
+}
+.Newbranch-part .Number {
+  position: absolute;
+  top: 19%;
+  left: 16.5%;     
+}
+.Newbranch-part .Name {
+  position: absolute;
+  top: 31%;
+  left: 15%;    
+}
+.Newbranch-part .Location {
+  position: absolute;
+  top: 53%;
+  left: 12%;    
+}
+.Newbranch-part .Manager {
+  position: absolute;
+  top: 43%;
+  left: 12%;    
+}
+.Newbranch-part .Phone {
+  position: absolute;
+  top: 64%;
+  left: 16.5%;    
+}
+.Newbranch-part .save-btn {
+  position: absolute;
+  top: 83%;
+  right: 25%;
+  width: 80px;
+  height: 35px;
+  font-weight: bold;
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.Newbranch-part .cancel-btn {
+  position: absolute;
+  top: 83%;
+  right: 15%;
+  width: 80px;
+  height: 35px;
+  font-weight: bold;
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.Newbranch-part .cancel-btn:focus {
+  outline: none;    
+}
+.Newbranch-part .save-btn:focus {
+  outline: none;    
+}
+
+/* Branch List CSS Part */
+.Branch-List {
+  width: 100%;
+  height: 100%;
+  border: 2px solid white; 
+  background-color: rgba(47, 79, 79, .5);  
+}
+.Branch-List .search {
+  position: absolute;
+  top: 17%;
+  left: 10%;
+  color: white;    
+}
+.Branch-List .search-input {
+  position:  absolute;
+  top: 28%;
+  left: 4%;
+  height: 32px;
+  background: none;
+  color: white;
+  border: 1px solid white;   
+  text-indent: 10px;    
+}
+.Branch-List .search-btn {
+  position: absolute;
+  top: 28%;
+  left: 21.4%;
+  font-weight: bold;
+  height: 32px;
+}
+.Branch-List .Result-card {
+  position: absolute;
+  top: 40%;
+  left: 4%;
+  width: 230px;
+  height: 150px;  
+}
+.Branch-List .table {
+  position: absolute;
+  top: 5%;
+  left: 32%;
+  width: 65%;
+  height: 89%;
+  border: 1px solid white;    
+  overflow: auto;
+}
+.Branch-List .table table {
+  border: 1px solid white;
+  line-height: 20px;
+  border-collapse: collapse;
+}
+.Branch-List .Result-card table {
+  border: 1px solid white;
+  line-height: 40px;
+  border-collapse: collapse;
+}
+
+/* The adding New Employee Part CSS */
+.Newemployee-part {   
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  background-color: rgba(47, 79, 79, .5);
+}
+.Newemployee-part .Addnew-title {
+  position: absolute;
+  top: 4%;
+  left: 9%;
+  color: white;    
+}
+.Newemployee-part .label1 {
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  color: white;        
+}
+.Newemployee-part .label2 {
+  position: absolute;
+  top: 32%;
+  left: 4%;
+  color: white;        
+}
+.Newemployee-part .label6 {
+  position: absolute;
+  top: 32%;
+  left: 39%;
+  color: white;        
+}
+.Newemployee-part .label3 {
+  position: absolute;
+  top: 44%;
+  left: 4%;
+  color: white;        
+}
+.Newemployee-part .label7 {
+  position: absolute;
+  top: 44%;
+  left: 39%;
+  color: white;        
+}
+.Newemployee-part .label4 {
+  position: absolute;
+  top: 54%;
+  left: 4%;
+  color: white;        
+}
+.Newemployee-part .label8 {
+  position: absolute;
+  top: 54%;
+  left: 39%;
+  color: white;        
+}
+.Newemployee-part .label5 {
+  position: absolute;
+  top: 65%;
+  left: 4%;
+  color: white;        
+}
+.Newemployee-part .input { 
+  height: 30px;    
+  background: none;
+  color: white;
+  text-indent: 10px;
+  border: none;    
+  border-bottom: 1px solid white;     
+}
+.Newemployee-part .Number {
+  position: absolute;
+  top: 19%;
+  left: 15%;     
+}
+.Newemployee-part .Name {
+  position: absolute;
+  top: 31%;
+  left: 13%;    
+}
+.Newemployee-part .Name2 {
+  position: absolute;
+  top: 31%;
+  left: 48%;    
+}
+.Newemployee-part .Email {
+  position: absolute;
+  top: 53%;
+  left: 10%;    
+}
+.Newemployee-part .Date {
+  width: 150px !important;    
+  position: absolute;
+  top: 53%;
+  left: 50%;    
+}
+.Newemployee-part .Gender {
+  position: absolute;
+  top: 43%;
+  left: 11%;    
+}
+.Newemployee-part .Salary {
+  position: absolute;
+  top: 43%;
+  left: 45%;    
+}
+.Newemployee-part .Phone {
+  position: absolute;
+  top: 64%;
+  left: 16%;    
+}
+.Newemployee-part .save-btn {
+  position: absolute;
+  top: 83%;
+  right: 25%;
+  width: 80px;
+  height: 35px;
+  font-weight: bold;
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.Newemployee-part .cancel-btn {
+  position: absolute;
+  top: 83%;
+  right: 15%;
+  width: 80px;
+  height: 35px;
+  font-weight: bold;
+  border-top-left-radius: 20px;    
+  border-bottom-right-radius: 20px;    
+}
+.Newemployee-part .cancel-btn:focus {
+  outline: none;    
+}
+.Newemployee-part .save-btn:focus {
+  outline: none;    
+}
+
+
+/* Employee List Part CSS */
+.Employee-List {
+  width: 100%;
+  height: 100%;
+  border: 2px solid white; 
+  background-color: rgba(47, 79, 79, .5);    
+}
+.Employee-List .search {
+  position: absolute;
+  top: 17%;
+  left: 10%;
+  color: white;    
+}
+.Employee-List .search-input {
+  position:  absolute;
+  top: 28%;
+  left: 4%;
+  height: 32px;
+  background: none;
+  color: white;
+  border: 1px solid white;   
+  text-indent: 10px;    
+}
+.Employee-List .search-btn {
+  position: absolute;
+  top: 28%;
+  left: 21.4%;
+  font-weight: bold;
+  height: 32px;
+}
+.Employee-List .Result-card {
+  position: absolute;
+  top: 40%;
+  left: 4%;
+  width: 230px;
+  height: 150px;    
+}
+.Employee-List .table {
+  position: absolute;
+  top: 5%;
+  left: 32%;
+  width: 65%;
+  height: 89%;
+  border: 1px solid white;    
+  overflow: auto;
+}
+.Employee-List .table table {
+  border: 1px solid white;
+  line-height: 20px;
+  border-collapse: collapse;
+}
+.Employee-List .Result-card table {
+  border: 1px solid white;
+  line-height: 40px;
+  border-collapse: collapse;
+}
+
+
+/* the Link buttons part */
+.about_us .link {
+  position: absolute;
+  top: 30%;
+  right: -110px;
+  width: 150px;
+  height: 35px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  transition: all .8s;
+  overflow: hidden;
+  box-shadow: 4px 5px 10px black;
+}
+.about_us .link:hover {
+  right: 0%;
+}
+.about_us .link a:hover {
+  text-decoration: none;
+}
+.about_us .link .icon {
+  color: white;
+  font-size: 22px;
+  margin-top: 6px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.about_us .m-top1 {
+  margin-top: 40px;
+}
+.about_us .m-top2 {
+  margin-top: 80px;
+}
+.about_us .m-top3 {
+  margin-top: 120px;
+}
+.about_us .m-top4 {
+  margin-top: 160px;
+}
+   
+   
